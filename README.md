@@ -4,5 +4,5 @@ A compilation of independent data projects that highlight my portfolio, featurin
 
 ## Projects
 
-[link to folder]
+[Elist Analysis](Elist/)
 - summary
