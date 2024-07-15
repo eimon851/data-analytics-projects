@@ -19,6 +19,7 @@ In 2022, **Elist** experienced **significant declines** in both **total sales** 
 
 ![image](https://github.com/user-attachments/assets/ed7717d2-aa48-415b-a506-d97181e85876)
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![image](https://github.com/user-attachments/assets/9fc5b0fc-21e8-4b9f-b53c-29047e177f8d)
 
