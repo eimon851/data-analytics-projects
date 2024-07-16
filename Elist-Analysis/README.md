@@ -31,3 +31,10 @@ In 2022, **Elist** experienced **significant declines** in both **total sales** 
 ---------------------------------------------------------------------------------------------
 
 ![image](https://github.com/user-attachments/assets/19bd515d-393b-478c-85bf-5505df4254db)
+
+# Recommendations
+-   Products: 
+	- To boost overall sales performance, prioritize promoting the **27in 4K gaming monitor** and **Apple Airpods Headphones** through targeted marketing campaigns, consider discontinuing the **Bose Soundsport Headphones** due to their poor sales with only **1 unit sold**, and evaluate the **Samsung Charging Cable Pack** and **Samsung Webcam** for potential increased investment, given their strong growth rates of **68%** and **70%**, respectively.
+
+-   Loyalty Program
+    -   The team recommends **continuing** the loyalty program, as it is **increasingly driving higher average sales** and significantly contributing to overall revenue growth year over year.
