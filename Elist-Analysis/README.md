@@ -4,12 +4,13 @@ Elist, founded in 2018, is an e-commerce company that sells popular electronics 
 
 In this project, I analyzed a sample dataset to investigate total sales, average order value (AOV), product performance, and operational effectiveness, providing insights on the company's performance across different business areas. I also evaluated the loyalty program's performance and will offer recommendations on key focus areas for the company. To achieve this, I used a combination of various Excel features such as pivot tables, aggregation functions, conditional formatting, and statistical analysis for cleaning, analyzing, and summarizing these insights to be delivered to the finance, marketing, product, and operations teams.
 
-# About the data
+# About the data/project
 
 The dataset consist of orders, order statuses, customers, products, and geographic information. The raw dataset consist of 108,000 rows.
 
-- Workbook of the indepth analysis and insights found here
-- Documentation for data cleaning found here
+- Workbook of the indepth analysis and insights found [here](folder)
+- Collection of queries designed to answer critical stakeholder questions found [here](https://github.com/mohammadeimon/portfolio-projects/tree/main/Elist-Analysis/elist_queries)
+- Interactive dashboard showcasing sales and shipping trends found [here](https://public.tableau.com/app/profile/mohammad.eimon/viz/elist_tableau2/Dashboard1)
 
 # Summary of Insight
 
