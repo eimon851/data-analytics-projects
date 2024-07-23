@@ -2,7 +2,7 @@
 
 Elist, founded in 2018, is an e-commerce company that sells popular electronics products, expanding globally and using various marketing channels like email campaigns, SEO, and affiliate links, with popular items from Apple, Samsung, and ThinkPad.
 
-In this project, I analyzed a sample dataset to investigate total sales, average order value (AOV), product performance, and operational effectiveness, providing insights on the company's performance across different business areas. I also evaluated the loyalty program's performance and will offer recommendations on key focus areas for the company. To achieve this, I used a combination of various Excel features such as pivot tables, aggregation functions, conditional formatting, and statistical analysis for cleaning, analyzing, and summarizing these insights to be delivered to the finance, marketing, product, and operations teams.
+In this project, I analyzed a sample dataset to investigate total sales, average order value (AOV), and product performance, providing insights on the company's performance across different business areas. I also evaluated the loyalty program's performance and will offer recommendations on key focus areas for the company. To achieve this, I used a combination of various Excel features such as pivot tables, aggregation functions, conditional formatting, and statistical analysis for cleaning, analyzing, and summarizing these insights to be delivered to the finance, marketing, product, and operations teams.
 
 # About the data/project
 
@@ -36,13 +36,13 @@ In 2022, **Elist** experienced **significant declines** in both **total sales** 
 ![image](https://github.com/user-attachments/assets/19bd515d-393b-478c-85bf-5505df4254db)
 
 # Recommendations
--   Seasonality: 
+- Seasonality: 
 	- Focus marketing and promotional efforts heavily during the **holiday season** and **mid-year months** to maximize revenue, while exploring strategies to boost sales during traditionally weaker months like **January** and **February**.
 	
--   Products: 
+- Products: 
 	- To boost overall sales performance, prioritize promoting the **27in 4K gaming monitor** and **Apple Airpods Headphones** through targeted marketing campaigns, consider discontinuing the **Bose Soundsport Headphones** due to their poor sales with only **1 unit sold**, and evaluate the **Samsung Charging Cable Pack** and **Samsung Webcam** for potential increased investment, given their strong growth rates of **68%** and **70%**, respectively.
 
--   Loyalty Program
+- Loyalty Program
     -   The team recommends **continuing** the loyalty program, as it is **increasingly driving higher average sales** and significantly contributing to overall revenue growth year over year.
     
 - Marketing Channels
