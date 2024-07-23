@@ -8,7 +8,7 @@ In this project, I analyzed a sample dataset to investigate total sales, average
 
 The dataset consist of orders, order statuses, customers, products, and geographic information. The raw dataset consist of 108,000 rows.
 
-- Workbook of the indepth analysis and insights found [here](folder)
+- Workbook of the indepth analysis and insights found [here](https://github.com/mohammadeimon/portfolio-projects/blob/main/Elist-Analysis/elist_orders_case_study.xlsx)
 - Collection of queries designed to answer critical stakeholder questions found [here](https://github.com/mohammadeimon/portfolio-projects/tree/main/Elist-Analysis/elist_queries)
 - Interactive dashboard showcasing sales and shipping trends found [here](https://public.tableau.com/app/profile/mohammad.eimon/viz/elist_tableau2/Dashboard1)
 
