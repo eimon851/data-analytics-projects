@@ -9,7 +9,7 @@ A compilation of independent data projects that highlight my portfolio, featurin
 - Founded in 2018, Elist is an e-commerce company specializing in popular electronics products, with a now-global customer base. Elist sells its products through both an online site and a mobile app, utilizing various marketing channels such as email campaigns, SEO, and affiliate links to reach customers. In recent years, their most popular products have included items from Apple, Samsung, and ThinkPad.
 - Tools: Excel, SQL, Tableau
 
-[Row Health Analysis](Row Health-Analysis/)
+[Row Health Analysis](RowHealth-Analysis/)
 
 *Modeled after [Ro](https://ro.co/weight-loss/?utm_campaign=20043830774&utm_content=147895441185&utm_source=google&utm_medium=cpc&gad=1&gclid=Cj0KCQjwqs6lBhCxARIsAG8YcDg3D6MWgcT7RUno1ydR6z_59qywyTtuoND7iGfQf5cU_nddz-_AYyUaAqENEALw_wcB), a modern direct-to-patient healthcare company.*
 
