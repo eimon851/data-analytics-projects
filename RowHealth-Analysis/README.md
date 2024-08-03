@@ -115,25 +115,27 @@ There was a sharp decline in both claims and claim amounts from June to July, po
 ### CAMPAIGN PERFORMANCE BY CAMPAIGN CATEGORY 
 
 #### #CoverageMatters and Health For All:
-    - Both campaigns are highlly cost efficient and have sigh sign-up rates making them standout campaigns
-    - Health For All has the highest sign-up rate (2.08%) and low cost per sign-up ($1.23)
+
+- Both campaigns are highlly cost efficient and have sigh sign-up rates making them standout campaigns
+- Health For All has the highest sign-up rate (2.08%) and low cost per sign-up ($1.23)
 
 #### Golden Years Security and Benefit Updates
-    - These campaigns have poor performance with very high cost per sign-up ($176.73 and $47.81, respectifvely) and low sign-up rates (0.01% and 0.02%, respectively)
-    - Indicates inefficiency in converting impression to sign-ups.
+- These campaigns have poor performance with very high cost per sign-up ($176.73 and $47.81, respectifvely) and low sign-up rates (0.01% and 0.02%, respectively)
+- Indicates inefficiency in converting impression to sign-ups.
 
 #### Marketing Channels
-    - Social Media outperforms other channels in terms of the number of sign-ups (7610) and has a relatively low cost per sign-up($2.25)
-    - Email and SEO also perform well, with reasonable cost per sign-up and significant reach
-    - TV has the lowest perfoamnce amoung channnels with high cost per sign-up ($10.48) and low sign-up rate (0.08%)
+
+- Social Media outperforms other channels in terms of the number of sign-ups (7610) and has a relatively low cost per sign-up($2.25)
+- Email and SEO also perform well, with reasonable cost per sign-up and significant reach
+- TV has the lowest perfoamnce amoung channnels with high cost per sign-up ($10.48) and low sign-up rate (0.08%)
 
 #### Campaign Reach
-    - Campaigns like Tailored Health Plans and Preventive Care News have high impression but relatively low sign-up rates, indicating a need for better targeting or ad relevance to improve conversion.
+
+- Campaigns like Tailored Health Plans and Preventive Care News have high impression but relatively low sign-up rates, indicating a need for better targeting or ad relevance to improve conversion.
 
 ### Recommendations
 
 - "Golden Years Security", "Benefit Updates", and the TV channel need improvements due to their high cost per sign-up and low sign-up rates.
-
 - Campaigns with high impressions but low sign-up rates (e.g., "Tailored Health Plans") should focus on improving ad relevance and targeting to convert impressions into sign-ups.
   
 
