@@ -70,75 +70,73 @@ As a data analyst on the patient research team, my focus is on evaluating the su
 
   
 
-### MONTH ON MONTH CLAIM GROWTH RATE
+### MONTH ON MONTH CLAIM GROWTH RATE (2023)
 
-[image]
-[dashboard]
+#### Claim Numbers and Trends
 
-#### Claim Numbers
+1. Fluctuations Throughout 2023:
 
-Explain the MOM growth rate of the number of claims in 2023?
+- Claim numbers showed variability during 2023, with a noticeable decline at the start of the year.
+- A significant increase of 22% was observed in March.
+- The latter half of the year saw a sharp decline, with July experiencing the most substantial decrease in claim numbers (almost 33%).
 
-- Claim numbers fluctuated throughout 2023, with a decline at the beginning of the year followed by a sharp increase of 22% in March, only to plummet in the later half of the year with July having the sharpest decrease in claim numbers (almost 33%). 
-- Based on previous years, it safe to say the claim numbers slightly fluctuate for the remainder of the year. 
+2. Trends Based on Previous Years:
 
-#### Claim Amount
-
-- In 2023, the claim amount monthly growth rate was at its highest in March at a 24% increase suggesting that the increase in claim also involved higher cost due to factors like higher claim or more expensive supplements being claimed.
-- From March to April we can that the total claim amount only decreased by 4.28%, which is less than the 11.13% decrease in the number of claims suggesting that certain higher-cost supplements were being claimed frequently.
-- Lastly, we noticed that from June to July, there's a sharp decline in both claims and claim amount, which can be due to many external factors such as policy changes, reduced demands or seasonality.
-
-  
-#### Average Claim Amount
-
-- We can make a hypothesis here that when there is a positive Average Claim Amount Growth (e.g., February, April, June), fewer claims are made, but they are of higher value on average. In months where the average claim amount growth is negative (e.g., May, July), an increase in the number of claims results in lower average claim amounts, indicating that more claims are of lower value.
-- There are exceptions. Notably, in March and July, the expected relationship does not hold, suggesting other factors may be influencing the average claim amounts in those months.
+- Historically, claim numbers tend to fluctuate slightly for the remainder of the year.
 
 
-### Annual Product Claims: Key Insights Report
+#### Claim Amount and Impact on Costs
 
-**Overview:** This report provides a concise analysis of claim counts and claim amounts for various products from 2019 to 2023.
+1. Highest Growth in March:
 
-**Key Insights:**
+- In March 2023, the claim amount monthly growth rate peaked with a 24% increase, indicating that the increase in claims also involved higher costs, possibly due to higher claim values or more expensive supplements being claimed.
 
--   **Top Performers:**
-    
-    -   **Hair Growth Supplements**: Consistently highest claims (2732 claims, $89,840 in 2023).
-    -   **Vitamin B+ Advanced Complex**: High claim amounts, peaked at $550,900 in 2021 ($227,551 in 2023).
--   **Significant Trends:**
-    
-    -   **Detox + Debloat Vitamin**: Claim amounts peaked in 2021 ($691,413), dropped to $286,551 in 2023.
-    -   **Daily Greens Pouch**: Peak in 2022 (1849 claims, $144,766), decreased in 2023.
--   **Emerging Products:**
-    
-    -   **SuperYou Natural Stress Relief** and **Probiotics Formulation**: Steady growth in claims and amounts.
--   **Declining Products:**
-    
-    -   **Essential Fatty Acid Supplement** and **Hair and Nail Wellbeing**: Low claims and amounts in recent years.
--   **Product Introductions and Exits:**
-    
-    -   Newer products like **Daily Synbiotic** and **Hair Vitamins II** have low claims, indicating limited market penetration.
-    -   Products like **Biotin Supplement II** show minimal claims, suggesting possible phase-out.
+2. March to April Decline:
 
-**Monthly Analysis for 2023:**
+- From March to April, the total claim amount decreased by only 4.28%, which is less than the 11.13% decrease in the number of claims. This suggests that certain higher-cost 
+supplements were claimed more frequently.
 
--   Higher claims for **Daily Greens Pouch** and **Detox + Debloat Vitamin** early in the year, declining later.
--   **Hair Growth Supplements**: Steady demand throughout the year.
--   **Vitamin B+ Advanced Complex**: Consistent significant claim amounts.
+3. June to July Decline:
 
-**Seasonal Insights:**
+There was a sharp decline in both claims and claim amounts from June to July, potentially due to external factors such as policy changes, reduced demand, or seasonality.
 
--   Higher claims in the first half of the year, likely due to New Year resolutions and colder months.
--   Declines in claims later in the year, suggesting seasonal purchasing behavior.
+#### Average Claim Amount and Its Correlation with Claim Numbers
 
-**Strategic Recommendations:**
+1. Positive Growth Correlation:
 
--   **Focus on High Performers**: Invest in top products like **Hair Growth Supplements** and **Vitamin B+ Advanced Complex**.
--   **Revitalize Declining Products**: Reassess and improve products with declining claims.
--   **Expand Emerging Markets**: Increase marketing for growing products like **SuperYou Natural Stress Relief**.
--   **Seasonal Campaigns**: Implement targeted marketing during peak seasons to maximize sales and claims.
+- During months with positive Average Claim Amount Growth (e.g., February, April, June), fewer claims were made, but they were of higher value on average.
 
+2. Negative Growth Correlation:
 
+- In months where the average claim amount growth was negative (e.g., May, July), an increase in the number of claims resulted in lower average claim amounts, indicating that more claims were of lower value.
+
+3. Exceptions:
+
+- March and July did not follow the expected relationship, suggesting other factors might have influenced the average claim amounts in these months.
+
+### CAMPAIGN PERFORMANCE BY CAMPAIGN CATEGORY 
+
+1. #CoverageMatters and Health For All:
+    - Both campaigns are highlly cost efficient and have sigh sign-up rates making them standout campaigns
+    - Health For All has the highest sign-up rate (2.08%) and low cost per sign-up ($1.23)
+
+2. Golden Years Security and Benefit Updates
+    - These campaigns have poor performance with very high cost per sign-up ($176.73 and $47.81, respectifvely) and low sign-up rates (0.01% and 0.02%, respectively)
+    - Indicates inefficiency in converting impression to sign-ups.
+
+3. Marketing Channels
+    - Social Media outperforms other channels in terms of the number of sign-ups (7610) and has a relatively low cost per sign-up($2.25)
+    - Email and SEO also perform well, with reasonable cost per sign-up and significant reach
+    - TV has the lowest perfoamnce amoung channnels with high cost per sign-up ($10.48) and low sign-up rate (0.08%)
+
+4. Campaign Reach
+    - Campaigns like Tailored Health Plans and Preventive Care News have high impression but relatively low sign-up rates, indicating a need for better targeting or ad relevance to improve conversion.
+
+#### Recommendations
+
+- "Golden Years Security", "Benefit Updates", and the TV channel need improvements due to their high cost per sign-up and low sign-up rates.
+
+- Campaigns with high impressions but low sign-up rates (e.g., "Tailored Health Plans") should focus on improving ad relevance and targeting to convert impressions into sign-ups.
   
 
 # SQL Insights
