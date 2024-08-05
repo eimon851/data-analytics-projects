@@ -141,6 +141,39 @@ There was a sharp decline in both claims and claim amounts from June to July, po
 
 # SQL Insights
 
+## Monthly Product Claim Totals for 2020
+
+- In 2020, Hair Growth Supplement has consistently had the highest number of claim each month except in May where Vitamin B+ Advanced Complex had the highest (392).
+
+## June 2023 Claims Summary
+
+- In June 2023, the total number of claim was 1069 with a total cost of $13.7K and a total of $83K was covered for those cost.
+
+## Top 2 Hair Products in June 2023
+
+- The top two hair products in June 2023 were Hair Vitamins Trio ($18K) and Hair Growth Supplements (~$12K) in claim amount.
+
+## State with Most Claims vs. Highest Claim Amounts in 2023
+
+- New Jersey had the highest number of claims (3.9K), which was correlated with the highest claim amount ($479K)
+
+## Top Covered Amount Category on Christmas 2022
+
+- Hair has the highest covered amount of $570 
+
+## Top 10 Customers with Most Claims
+
+- Eduardo and Marylee are tied for most claims (55). The remaining customer are very close to this number.
+
+## Platinum Customers in 2023 or Signed Up in 2022
+
+- 8 customers have a platinum plan and either signed up in 2022 or 2023
+
+## Avg Percent Reimbursement for Hair Products in NY or Supplements
+
+- The average reimburstment  percentage was consistently around 60% each year with 2019 having the highest (63.3%)
+
+
 # Tableau Insights
 
 # Recommendations
