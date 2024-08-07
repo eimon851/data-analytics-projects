@@ -1,12 +1,14 @@
 1. What are the total number of claims per month, per product in 2020?
 
-```select date_trunc(claim_date, month) as claim_month,
+```sql
+select date_trunc(claim_date, month) as claim_month,
   product_name,
   count(distinct claim_id) as num_claims
 from rowhealth.claims
 where extract(year from claim_date) = 2020
 group by 1,2
-order by 1```
+order by 1
+```
 
 2. What was the total number of claims, total claim cost, and total covered cost in June 2023?
 
