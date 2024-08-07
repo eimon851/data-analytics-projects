@@ -143,7 +143,8 @@ There was a sharp decline in both claims and claim amounts from June to July, po
 
 - In this section, I focused on addressing specific business queries using BigQuery SQL. My analysis involved using aggregation functions, window functions, joins, filtering, CASE expressions, common table expressions (CTEs), and the QUALIFY clause with ranking function like ROW_NUMBER() to refine the results.
 
-- You can find my SQL queries and additional insights [here].
+- You can find the SQL queries for these insights [here](/RowHealth-Analysis/rowhealth_queries/allqueries.md).
+- Code is attached to the last 3 insight in this list
 
 ### Monthly Product Claim Totals for 2020
 
