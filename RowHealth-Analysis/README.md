@@ -175,15 +175,73 @@ There was a sharp decline in both claims and claim amounts from June to July, po
 
 ### Avg Percent Reimbursement for Hair Products in NY or Supplements
 
+```sql
+-- What was the average percent reimbursement across all years for products that were either hair related and sold in NY, or a supplement product?
+
+select
+  extract(year from claim_date) as year,
+  -- have to make sure all sum of claim_amount = 0 are null
+  case when sum(cl.claim_amount) = 0 then null else
+    round(sum(cl.covered_amount)/sum(cl.claim_amount)*100,1) end as avg_reimbursement
+from rowhealth.customers as cu
+left join rowhealth.claims as cl
+  on cu.customer_id = cl.customer_id
+where (lower(cl.product_name) like '%hair%' and cu.state = 'NY')
+  or lower(cl.product_name) = '%supplement'
+group by 1
+order by 1 desc;
+```
 - The average reimburstment  percentage was consistently around 60% each year with 2019 having the highest (63.3%)
 
 ### Average Days Between Claims for Multi-Claim Customers
 
-- On average, most customer makes claims every 360 days (almost every year then).
+```sql
+-- For customers with more than one claim, what's the average number of days between claims for each customer?
+
+with cte as
+(select cl.customer_id,
+  cl.claim_date,
+  lag(cl.claim_date,1) over (partition by cl.customer_id order by cl.claim_date) as prev_date
+from rowhealth.claims as cl
+left join rowhealth.customers as cu
+  on cl.customer_id = cu.customer_id)
+
+select cte.customer_id,
+  avg(date_diff(cte.claim_date,cte.prev_date,day)) as avg_days_betw_claims
+from cte
+where prev_date is not null
+group by 1
+order by 1;
+```
+
+- On average, most customer makes claims every ~360 days (almost every year then).
 
 ### Most Common Second Product for Multi-Order Customers
 
+```sql
+ -- For customers who have more than 1 order, which product is most often bought as the second product?
+
+with cte as 
+(select cl.customer_id,
+  cl.product_name,
+  cl.claim_date,
+  row_number() over(partition by cl.customer_id order by cl.claim_date)
+from rowhealth.claims as cl
+left join rowhealth.customers as cu
+  on cl.customer_id = cu.customer_id
+qualify row_number() over(partition by cl.customer_id order by cl.claim_date) = 2
+order by 1)
+
+select
+  cte.product_name,
+  count(2) as product_count
+from cte
+group by 1
+order by 2 desc;
+```
+
 - Vitamin B+ Advanced Complex is the second most bought product (3822 purchases) with Hair Growth Supplements as the third most purchased (1946 purchases)
+
 
 # Tableau Insights
 
