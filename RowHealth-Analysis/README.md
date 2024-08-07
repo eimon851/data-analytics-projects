@@ -141,6 +141,10 @@ There was a sharp decline in both claims and claim amounts from June to July, po
 
 # SQL Insights
 
+- In this section, I focused on addressing specific business queries using BigQuery SQL. My analysis involved using aggregation functions, window functions, joins, filtering, CASE expressions, common table expressions (CTEs), and the QUALIFY clause with ranking function like ROW_NUMBER() to refine the results.
+
+- You can find my SQL queries and additional insights [here].
+
 ### Monthly Product Claim Totals for 2020
 
 - In 2020, Hair Growth Supplement has consistently had the highest number of claim each month except in May where Vitamin B+ Advanced Complex had the highest (392).
@@ -173,6 +177,13 @@ There was a sharp decline in both claims and claim amounts from June to July, po
 
 - The average reimburstment  percentage was consistently around 60% each year with 2019 having the highest (63.3%)
 
+### Average Days Between Claims for Multi-Claim Customers
+
+- On average, most customer makes claims every 360 days (almost every year then).
+
+### Most Common Second Product for Multi-Order Customers
+
+- Vitamin B+ Advanced Complex is the second most bought product (3822 purchases) with Hair Growth Supplements as the third most purchased (1946 purchases)
 
 # Tableau Insights
 
