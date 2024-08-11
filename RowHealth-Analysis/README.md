@@ -1,72 +1,47 @@
-# Portfolio Project - Row Health Wellness Program Analysis
-
-  
-
-[dashboard]
-
-  
+# Row Health Wellness Program Analysis (2019-2023)
 
 # Table of Content
 
-  
-
 - About This Project
 
-- Excel Insights
+- Excel Insight + Technical Analysis
 
-- SQL Insights
+- SQL Insights + Technical Analysis
 
-- Tableau Insights
+- Tableau Dashboard + Insights
 
 - Recommendations
 
-  
-
 # About This Project
 
-  
+Founded in 2016, Row Health is a tech-focused insurance company with over 100,000 U.S. customers, offering a Wellness Reimbursement program since 2019 to subsidize popular wellbeing supplements and promote daily health care through diverse digital marketing efforts. 
 
-As a data analyst on the patient research team, my focus is on evaluating the success of the reimbursement program. I’ll provide insights by answering data-driven questions and offering recommendations to the product and marketing teams. Ultimately, my goal is to help them attract new customers and strengthen brand recognition.
+As a new data analyst on the patient research team, I prioritize understanding company trends, answering ad-hoc questions, and providing recommendations to the product and marketing teams, all to support the team in enhancing customer acquisition and boosting brand awareness.
 
-  
-
-## Project Overview
+# Project Overview
 
   
 
-### Part A: Claim + Marketing Campaign Analysis (Excel)
+## Part A: Claim Trend + Campaign Performance Analysis (Excel)
 
 - Conduct **claim analysis** to determine **seasonal growth** on various claim metrics, including **product-specific** claim metrics.
 
 - Analyzed **campaign performance** by evaluating **costs, impressions, and sign-up rates** for **customer acquisition**, and **CPC, CPA, and CTR** for customer engagement.
 
-  
-
-### Part B: Specific Insights (SQL)
-
-  
+## Part B: Specific Insights (SQL)
 
 - Delivered comprehensive insights to the Claims department on **top hair-related products**, states with the **highest claims**, most **frequent users** of the reimbursement program, and more.
 
-  
+## Part C: Visualizations (Tableau)
 
-### Part 3: Visualizations (Tableau)
+- Create interactive dashboards for campaign performance
 
-  
-
-- Create interactive dashboards for claim density, campaign reach, and predictive analytics.
-
-  
-
-### Part 4: Recommendations & Next Steps
-
-  
+## Part 4: Recommendations & Next Steps
 
 - Provide targeted marketing strategies and optimization suggestions.
 
   
-
-# Excel Insights
+# Excel Insights + Technical Analysis
 
 ## MONTH ON MONTH CLAIM GROWTH RATE (2023)
 
@@ -139,7 +114,7 @@ There was a sharp decline in both claims and claim amounts from June to July, po
 - Campaigns with high impressions but low sign-up rates (e.g., "Tailored Health Plans") should focus on improving ad relevance and targeting to convert impressions into sign-ups.
   
 
-# SQL Insights
+# SQL Insights + Technical Analysis
 
 In this section, I focused on addressing specific business queries using BigQuery SQL. My analysis involved using aggregation functions, window functions, joins, filtering, CASE expressions, common table expressions (CTEs), and the QUALIFY clause with ranking function like ROW_NUMBER() to refine the results. You can find the SQL queries for these insights [here](/RowHealth-Analysis/rowhealth_queries/allqueries.md). Code is attached to the last 3 insight in this list.
 
