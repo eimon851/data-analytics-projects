@@ -92,6 +92,7 @@ There was a sharp decline in both claims and claim amounts from June to July, po
 ## CAMPAIGN PERFORMANCE BY CAMPAIGN CATEGORY 
 
 ![image](https://github.com/user-attachments/assets/99dffb6a-48db-403a-8725-811be2f2c776)
+
 ![image](https://github.com/user-attachments/assets/725dbca6-f36f-45fc-a32d-ec86389c8590)
 
 
