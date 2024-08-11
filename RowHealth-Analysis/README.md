@@ -43,6 +43,8 @@ As a new data analyst on the patient research team, I prioritize understanding c
   
 # Excel Insights + Technical Analysis
 
+![image](https://github.com/user-attachments/assets/1dcfc675-8c44-4ce8-ad14-636b67adc30c)
+
 ## MONTH ON MONTH CLAIM GROWTH RATE (2023)
 
 ### Claim Numbers and Trends
@@ -87,7 +89,11 @@ There was a sharp decline in both claims and claim amounts from June to July, po
 
 - March and July did not follow the expected relationship, suggesting other factors might have influenced the average claim amounts in these months.
 
-### CAMPAIGN PERFORMANCE BY CAMPAIGN CATEGORY 
+## CAMPAIGN PERFORMANCE BY CAMPAIGN CATEGORY 
+
+![image](https://github.com/user-attachments/assets/99dffb6a-48db-403a-8725-811be2f2c776)
+![image](https://github.com/user-attachments/assets/725dbca6-f36f-45fc-a32d-ec86389c8590)
+
 
 #### #CoverageMatters and Health For All:
 
@@ -217,5 +223,7 @@ order by 2 desc;
 
 
 # Tableau Insights
+
+![Dashboard 2](https://github.com/user-attachments/assets/9bc8dd05-8852-4ad0-ada5-e234150b5e6f)
 
 # Recommendations
