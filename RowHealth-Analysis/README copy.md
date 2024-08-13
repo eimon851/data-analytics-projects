@@ -40,6 +40,11 @@ To assess the effectiveness of our campaign, we concentrated on the following es
 
 ### Technical Analysis
 
+Sample from Excel Workbook
+
+![image](https://github.com/user-attachments/assets/938a063c-b1de-4e4c-9eb7-6b9f080e0ce2)
+
+
 ## SQL Insights Summary
 
   
@@ -75,6 +80,38 @@ In this section, I focused on addressing specific business queries using BigQuer
 ### Platinum Customers in 2023 or Signed Up in 2022
 
 - 8 customers have a platinum plan and either signed up in 2022 or 2023
+
+### Avg Percent Reimbursement for Hair Products in NY or Supplements
+
+- On average, most customer makes claims every ~360 days (almost every year then).
+
+### Most Common Second Product for Multi-Order Customers
+
+Sample code where I used various SQL concepts/functions
+
+```sql
+ -- For customers who have more than 1 order, which product is most often bought as the second product?
+
+with cte as 
+(select cl.customer_id,
+  cl.product_name,
+  cl.claim_date,
+  row_number() over(partition by cl.customer_id order by cl.claim_date)
+from rowhealth.claims as cl
+left join rowhealth.customers as cu
+  on cl.customer_id = cu.customer_id
+qualify row_number() over(partition by cl.customer_id order by cl.claim_date) = 2
+order by 1)
+
+select
+  cte.product_name,
+  count(2) as product_count
+from cte
+group by 1
+order by 2 desc;
+```
+
+- Vitamin B+ Advanced Complex is the second most bought product (3822 purchases) with Hair Growth Supplements as the third most purchased (1946 purchases)
 
 # Recommendation
 
