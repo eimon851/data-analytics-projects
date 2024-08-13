@@ -1,131 +1,57 @@
 # Row Health Wellness Program Analysis (2019-2023)
 
-# Table of Content
+*The objective of this project is to analyze the effectiveness of marketing campaigns at Row Health, with the aim of providing strategic recommendations for the allocation of marketing budgets across various future campaign categories.*
 
-- About This Project
+## About This Project
 
-- Excel Insight + Technical Analysis
+Established in 2016, Row Health is a medical insurance provider catering to thousands of customers across the United States. In 2019, they introduced new marketing campaigns focusing on wellness tips, the affordability of their plans, and preventative care. Customers have the option to choose from four different plans: bronze, silver, gold, and platinum, each varying in premiums and coverage rates.
 
-- SQL Insights + Technical Analysis
+With the recent addition of a data team, Row Health is planning its marketing budget for the year. The company aims to better understand the effectiveness of these marketing campaigns in relation to customer signups and subsequent patient claims. The marketing budget is focused on achieving two main goals: increasing the number of customer signups and enhancing brand awareness nationwide.
 
-- Tableau Dashboard + Insights
+The dataset I analyzed consist of three tables and includes information on customers, campaigns and claims. Here is the Entity Relationship Diagram for the data I'll be using 
 
-- Recommendations
+![Health Data ERD](https://github.com/user-attachments/assets/522e6fbe-a922-4e9f-8434-157b044f365b)
+  
+  ## Excel Insights Summary
+  
+To assess the effectiveness of our campaign, we concentrated on the following essential metrics:
 
-# About This Project
+1.  **Signup Rate**: This measures the percentage of individuals who view a campaign and then enroll in a Row Health plan.
+2.  **Cost per Signup**: This indicates the average expenditure required to secure each signup from the campaign.
+3.  **Click-through Rate (CTR)**: This represents the percentage of viewers who click on the campaign's link after seeing it.
 
-Founded in 2016, Row Health is a tech-focused insurance company with over 100,000 U.S. customers, offering a Wellness Reimbursement program since 2019 to subsidize popular wellbeing supplements and promote daily health care through diverse digital marketing efforts. 
+### Signup Rate
 
-As a new data analyst on the patient research team, I prioritize understanding company trends, answering ad-hoc questions, and providing recommendations to the product and marketing teams, all to support the team in enhancing customer acquisition and boosting brand awareness.
+- Health For All has the highest sign-up rate (2.08%), second highest number of signups (3545)
+- The high signup rate can be accredited to the campaign type Health Awareness which had the highest signup rate (0.41%) across all campaign type
+-  Golden Years Security and Benefit Updates have the lowest signup rates (0.01% and 0.02%, respectively) and the lowest signup count (23 and 45, respectively) indicating inefficiency in converting impression to signups
 
-# Project Overview
+### Cost per Signup
+
+- Golden Years Security has the highest cost per signup ($176.73), almost 4 times then the next campaign category Benefit Updates with a $47.81 cost per signup
+- As for campaign platform, TV has the highest at $10.48 with the lowest signup rates .08%
+- Offer Annoucement has a $99.70 cost per sign up and .01% signup rates 
+
+### Click through Rate
+
+- Across all categories, Health For All and Benefit Updates achieved the highest CTR at 25.48% and 22.17% respectively.
+- The Family Coverage Plan received a significant number of impressions but did not generate any clicks. This needs further investigation, as it can be due to missing data or problems within the campaign.
+- When it comes to platforms, Email leads with a click-through rate (CTR) of 16.71%, which is 94% higher than the second-best platform, Social Media, at 8.62%. In contrast, TV has a CTR of 0%.
+
+### Technical Analysis
+
+Sample from [Excel Workbook](/RowHealth-Analysis/rowhealth.xlsx/rowhealth%20case%20study.xlsx)
+
+![image](https://github.com/user-attachments/assets/938a063c-b1de-4e4c-9eb7-6b9f080e0ce2)
+
+
+## SQL Insights Summary
 
   
 
-## Part A: Claim Trend + Campaign Performance Analysis (Excel)
-
-- Conduct **claim analysis** to determine **seasonal growth** on various claim metrics, including **product-specific** claim metrics.
-
-- Analyzed **campaign performance** by evaluating **costs, impressions, and sign-up rates** for **customer acquisition**, and **CPC, CPA, and CTR** for customer engagement.
-
-## Part B: Specific Insights (SQL)
-
-- Delivered comprehensive insights to the Claims department on **top hair-related products**, states with the **highest claims**, most **frequent users** of the reimbursement program, and more.
-
-## Part C: Visualizations (Tableau)
-
-- Create interactive dashboards for campaign performance
-
-## Part 4: Recommendations & Next Steps
-
-- Provide targeted marketing strategies and optimization suggestions.
+In this section, I focused on addressing specific business queries using BigQuery SQL. My analysis involved using aggregation functions, window functions, joins, filtering, CASE expressions, common table expressions (CTEs), and the QUALIFY clause with ranking function like ROW_NUMBER() to refine the results. You can find the SQL queries for these insights [here](/RowHealth-Analysis/rowhealth_queries/allqueries.md). 
 
   
-# Excel Insights + Technical Analysis
-
-![image](https://github.com/user-attachments/assets/1dcfc675-8c44-4ce8-ad14-636b67adc30c)
-
-## MONTH ON MONTH CLAIM GROWTH RATE (2023)
-
-### Claim Numbers and Trends
-
-#### Fluctuations Throughout 2023:
-
-- Claim numbers showed variability during 2023, with a noticeable decline at the start of the year.
-- A significant increase of 22% was observed in March.
-- The latter half of the year saw a sharp decline, with July experiencing the most substantial decrease in claim numbers (almost 33%).
-
-#### Trends Based on Previous Years:
-
-- Historically, claim numbers tend to fluctuate slightly for the remainder of the year.
-
-
-### Claim Amount and Impact on Costs
-
-#### Highest Growth in March:
-
-- In March 2023, the claim amount monthly growth rate peaked with a 24% increase, indicating that the increase in claims also involved higher costs, possibly due to higher claim values or more expensive supplements being claimed.
-
-#### March to April Decline:
-
-- From March to April, the total claim amount decreased by only 4.28%, which is less than the 11.13% decrease in the number of claims. This suggests that certain higher-cost 
-supplements were claimed more frequently.
-
-#### June to July Decline:
-
-There was a sharp decline in both claims and claim amounts from June to July, potentially due to external factors such as policy changes, reduced demand, or seasonality.
-
-### Average Claim Amount and Its Correlation with Claim Numbers
-
-#### Positive Growth Correlation:
-
-- During months with positive Average Claim Amount Growth (e.g., February, April, June), fewer claims were made, but they were of higher value on average.
-
-#### Negative Growth Correlation:
-
-- In months where the average claim amount growth was negative (e.g., May, July), an increase in the number of claims resulted in lower average claim amounts, indicating that more claims were of lower value.
-
-#### Exceptions:
-
-- March and July did not follow the expected relationship, suggesting other factors might have influenced the average claim amounts in these months.
-
-## CAMPAIGN PERFORMANCE BY CAMPAIGN CATEGORY 
-
-![image](https://github.com/user-attachments/assets/99dffb6a-48db-403a-8725-811be2f2c776)
-
-
-![image](https://github.com/user-attachments/assets/9441db11-6c4b-4b5c-b8a5-5a16a487e146)
-
-
-
-#### #CoverageMatters and Health For All:
-
-- Both campaigns are highlly cost efficient and have sigh sign-up rates making them standout campaigns
-- Health For All has the highest sign-up rate (2.08%) and low cost per sign-up ($1.23)
-
-#### Golden Years Security and Benefit Updates
-- These campaigns have poor performance with very high cost per sign-up ($176.73 and $47.81, respectifvely) and low sign-up rates (0.01% and 0.02%, respectively)
-- Indicates inefficiency in converting impression to sign-ups.
-
-#### Marketing Channels
-
-- Social Media outperforms other channels in terms of the number of sign-ups (7610) and has a relatively low cost per sign-up($2.25)
-- Email and SEO also perform well, with reasonable cost per sign-up and significant reach
-- TV has the lowest perfoamnce amoung channnels with high cost per sign-up ($10.48) and low sign-up rate (0.08%)
-
-#### Campaign Reach
-
-- Campaigns like Tailored Health Plans and Preventive Care News have high impression but relatively low sign-up rates, indicating a need for better targeting or ad relevance to improve conversion.
-
-### Recommendations
-
-- "Golden Years Security", "Benefit Updates", and the TV channel need improvements due to their high cost per sign-up and low sign-up rates.
-- Campaigns with high impressions but low sign-up rates (e.g., "Tailored Health Plans") should focus on improving ad relevance and targeting to convert impressions into sign-ups.
-  
-
-# SQL Insights + Technical Analysis
-
-In this section, I focused on addressing specific business queries using BigQuery SQL. My analysis involved using aggregation functions, window functions, joins, filtering, CASE expressions, common table expressions (CTEs), and the QUALIFY clause with ranking function like ROW_NUMBER() to refine the results. You can find the SQL queries for these insights [here](/RowHealth-Analysis/rowhealth_queries/allqueries.md). Code is attached to the last 3 insight in this list.
 
 ### Monthly Product Claim Totals for 2020
 
@@ -145,7 +71,7 @@ In this section, I focused on addressing specific business queries using BigQuer
 
 ### Top Covered Amount Category on Christmas 2022
 
-- Hair has the highest covered amount of $570 
+- Hair has the highest covered amount of $570
 
 ### Top 10 Customers with Most Claims
 
@@ -157,48 +83,11 @@ In this section, I focused on addressing specific business queries using BigQuer
 
 ### Avg Percent Reimbursement for Hair Products in NY or Supplements
 
-```sql
--- What was the average percent reimbursement across all years for products that were either hair related and sold in NY, or a supplement product?
-
-select
-  extract(year from claim_date) as year,
-  -- have to make sure all sum of claim_amount = 0 are null
-  case when sum(cl.claim_amount) = 0 then null else
-    round(sum(cl.covered_amount)/sum(cl.claim_amount)*100,1) end as avg_reimbursement
-from rowhealth.customers as cu
-left join rowhealth.claims as cl
-  on cu.customer_id = cl.customer_id
-where (lower(cl.product_name) like '%hair%' and cu.state = 'NY')
-  or lower(cl.product_name) = '%supplement'
-group by 1
-order by 1 desc;
-```
-- The average reimburstment  percentage was consistently around 60% each year with 2019 having the highest (63.3%)
-
-### Average Days Between Claims for Multi-Claim Customers
-
-```sql
--- For customers with more than one claim, what's the average number of days between claims for each customer?
-
-with cte as
-(select cl.customer_id,
-  cl.claim_date,
-  lag(cl.claim_date,1) over (partition by cl.customer_id order by cl.claim_date) as prev_date
-from rowhealth.claims as cl
-left join rowhealth.customers as cu
-  on cl.customer_id = cu.customer_id)
-
-select cte.customer_id,
-  avg(date_diff(cte.claim_date,cte.prev_date,day)) as avg_days_betw_claims
-from cte
-where prev_date is not null
-group by 1
-order by 1;
-```
-
 - On average, most customer makes claims every ~360 days (almost every year then).
 
 ### Most Common Second Product for Multi-Order Customers
+
+Sample code where I used various SQL concepts/functions
 
 ```sql
  -- For customers who have more than 1 order, which product is most often bought as the second product?
@@ -224,9 +113,24 @@ order by 2 desc;
 
 - Vitamin B+ Advanced Complex is the second most bought product (3822 purchases) with Hair Growth Supplements as the third most purchased (1946 purchases)
 
+# Recommendation
 
-# Tableau Insights
+### Increase signups
+
+- Consider prioritizing campaigns in the Health for All category since it has the highest signup rate by allocating more to its budget (10-15% increase)
+- Trade the spending on SEO to email campaigns as both platforms have similar signups and signup rates but SEO  cost per sign up is a dollar more. Otherwise, keep prioritizing Social Media as its doing the best across all metrics.
+- This campaign has the lowest signup rate at 0.01% and the highest cost per signup at $99.70. It is not cost-effective and should be reevaluated. Consider reallocating resources to more successful campaigns or overhauling the strategy entirely.
+
+### Increase brand awareness
+
+- Priortiize campaigns run on emails as it has the highest click through rate and lowest cost per click.
+- Invest in high-quality content and technical SEO improvements to enhance organic search visibility and traffic
+- Examine why the cost per signup for COVID-related campaigns is unusually high, with two signups costing more than $1,000 each, compared to the average signup cost of $3.70. Consider the possibility of discontinuing these campaigns entirely.
+
+
+
+# Tableau Dashboard
+The dashboard can be found on Tableau Public [here](/https://public.tableau.com/app/profile/mohammad.eimon/viz/rowhealth_tableau_dashboard/Dashboard2?publish=yes). This dashboard focuses campaign performance primarily on signup metrics at the category and platform level while proving marketing metrics all of which can be filtered by the campaign's category and platform.
 
 ![Dashboard 2](https://github.com/user-attachments/assets/9bc8dd05-8852-4ad0-ada5-e234150b5e6f)
 
-# Recommendations
