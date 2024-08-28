@@ -127,7 +127,15 @@ order by 2 desc;
 - Invest in high-quality content and technical SEO improvements to enhance organic search visibility and traffic
 - Examine why the cost per signup for COVID-related campaigns is unusually high, with two signups costing more than $1,000 each, compared to the average signup cost of $3.70. Consider the possibility of discontinuing these campaigns entirely.
 
+# Presentation
 
+Using google sheets, a presentation for the marketing team covers the insights and recommendations mentioned above and can be found here. Below are a few highlights for quick reference.
+
+![row_health_presentation pptx (2)](https://github.com/user-attachments/assets/49892d3b-3cc9-425c-b2a0-276c1976ec5e)
+
+![row_health_presentation pptx (1)](https://github.com/user-attachments/assets/de9bbb62-04c3-4c31-ba2c-684ba84ac853)
+
+![row_health_presentation pptx](https://github.com/user-attachments/assets/6ecb420a-b1c8-44a4-b7ae-382c99998890)
 
 # Tableau Dashboard
 The dashboard can be found on Tableau Public [here](/https://public.tableau.com/app/profile/mohammad.eimon/viz/rowhealth_tableau_dashboard/Dashboard2?publish=yes). This dashboard focuses campaign performance primarily on signup metrics at the category and platform level while proving marketing metrics all of which can be filtered by the campaign's category and platform.
