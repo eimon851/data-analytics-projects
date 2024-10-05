@@ -1,18 +1,31 @@
-# Portfolio Project - Elist Analysis
 
-Elist, founded in 2018, is an e-commerce company that sells popular electronics products, expanding globally and using various marketing channels like email campaigns, SEO, and affiliate links, with popular items from Apple, Samsung, and ThinkPad.
+# Portfolio Background
 
-In this project, I analyzed a sample dataset to investigate total sales, average order value (AOV), and product performance, providing insights on the company's performance across different business areas. I also evaluated the loyalty program's performance and will offer recommendations on key focus areas for the company. To achieve this, I used a combination of various Excel features such as pivot tables, aggregation functions, conditional formatting, and statistical analysis for cleaning, analyzing, and summarizing these insights to be delivered to the finance, marketing, product, and operations teams.
+Elist Electronic, founded in 2018, is an e-commerce company that sells popular electronics products from companies such as Apple, Samsung, and ThinkPad.
 
-# About the data/project
+The company has a lot of unused data on sales, marketing, operations, products, and loyalty. We'll analyze this data to find ways to improve the business. We'll focus on sales trends, product performance, loyalty program success, and regional comparisons.
 
-The dataset consist of orders, order statuses, customers, products, and geographic information. The raw dataset consist of 108,000 rows.
+-   Sales Trends Analysis: Evaluation of historical sales patterns, both globally and by region, focusing on Revenue, Order Volume, and Average Order Value (AOV).
+-   Product Level Performance: An analysis of Elist's various product lines, understanding their impact on sales and returns.
+-   Loyalty Program Success: An assessment of the loyalty program on customer retention and sales.
+-   Regional Comparisons: An evaluation of sales and orders by region.
 
-- Workbook of the indepth analysis and insights found [here](https://github.com/mohammadeimon/portfolio-projects/blob/main/Elist-Analysis/elist_orders_case_study.xlsx)
-- Collection of queries designed to answer critical stakeholder questions found [here](https://github.com/mohammadeimon/portfolio-projects/tree/main/Elist-Analysis/elist_queries)
-- Interactive dashboard showcasing sales and shipping trends found [here](https://public.tableau.com/app/profile/mohammad.eimon/viz/elist_tableau2/Dashboard1)
 
-# Summary of Insight
+Workbook of the indepth analysis and insights found [here](https://github.com/mohammadeimon/portfolio-projects/blob/main/Elist-Analysis/elist_orders_case_study.xlsx)
+
+Collection of queries designed to answer critical stakeholder questions found [here](https://github.com/mohammadeimon/portfolio-projects/tree/main/Elist-Analysis/elist_queries)
+
+Interactive dashboard showcasing sales and shipping trends found [here](https://public.tableau.com/app/profile/mohammad.eimon/viz/elist_tableau2/Dashboard1)
+
+# Data Structure
+
+[Image of Data Structure]
+
+# Executive Summary
+
+***Ovierview of Finding***
+
+[Dashboard]
 
 In 2022, **Elist** experienced **significant declines** in both **total sales** and **order count**, with a **-46% drop in sales** to **$4,957,580** and a **-40% reduction in orders** to **21,565** compared to the previous year. The seasonality analysis reveals **strong end-of-year peaks** in sales, with **December consistently performing best**, such as **$1,251,721** in December 2020, while **January and February often dip**, like **$246,839** in February 2019. Sales and order counts show a **noticeable decline from early to mid-2022**, indicating a potential market downturn. The **average order value (AOV)** typically increases during high-sales periods, peaking at **$311** in December 2020. Additionally, **mid-year months like July and August show moderate increases**, reflecting a possible secondary peak in consumer activity.
 
