@@ -26,7 +26,7 @@ Interactive dashboard showcasing sales and shipping trends found [here](https://
 
 ***Ovierview of Finding***
 
-![image](https://github.com/user-attachments/assets/ece053de-f2dd-495c-b89c-bc0282c234fa)
+![image](https://github.com/user-attachments/assets/45083401-d7c6-45de-b6db-29c348360369)
 
 
 In 2022, **Elist** experienced **significant declines** in both **total sales** and **order count**, with a **-46% drop in sales** to **$4,957,580** and a **-40% reduction in orders** to **21,565** compared to the previous year. The seasonality analysis reveals **strong end-of-year peaks** in sales, with **December consistently performing best**, such as **$1,251,721** in December 2020, while **January and February often dip**, like **$246,839** in February 2019. Sales and order counts show a **noticeable decline from early to mid-2022**, indicating a potential market downturn. The **average order value (AOV)** typically increases during high-sales periods, peaking at **$311** in December 2020. Additionally, **mid-year months like July and August show moderate increases**, reflecting a possible secondary peak in consumer activity.
