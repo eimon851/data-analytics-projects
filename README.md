@@ -14,6 +14,6 @@ A collection of data projects demonstrating my proficiency in Excel, SQL, and Ta
 - Evaluated marketing campaign effectiveness for Row Health, a tech-forward insurance company, using Excel and SQL (BigQuery) to analyze metrics related to customer acquisition and brand awareness.
 - Tools: Excel, SQL, Tableau
 
-VelociCycle Analysis
+[VelociCycle Analysis](VelociCycle-Analysis/)
 
-- Following up on [link] — this project dives into sales trends and customer insights using exploratory SQL (BigQuery) analysis for VelociCycle, a premium Australian bike brand catering to performance-focused riders.
+- Following up on [Data Warehouse Project](https://github.com/eimon851/sql-data-warehouse-project) — this project dives into sales trends and customer insights using exploratory SQL (BigQuery) analysis for VelociCycle, a premium Australian bike brand catering to performance-focused riders.
